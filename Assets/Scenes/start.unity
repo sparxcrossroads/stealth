@@ -4375,6 +4375,10 @@ Prefab:
       propertyPath: m_LightmapTilingOffset.w
       value: .513593912
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 3dca3ab28d5122f4fac1408da85573a5, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3dca3ab28d5122f4fac1408da85573a5, type: 2}
   m_RootGameObject: {fileID: 1729418473}
@@ -31798,6 +31802,10 @@ Prefab:
       propertyPath: m_Name
       value: fx_laserFence_lasers_002
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f3220d9a82265074888fdeefebed3fc4, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3220d9a82265074888fdeefebed3fc4, type: 2}
   m_RootGameObject: {fileID: 1210549134}
@@ -36061,6 +36069,7 @@ GameObject:
   - 136: {fileID: 1084272831}
   - 54: {fileID: 1084272830}
   - 82: {fileID: 1084272829}
+  - 114: {fileID: 1084272834}
   m_Layer: 0
   m_Name: char_ethan
   m_TagString: Player
@@ -36194,6 +36203,20 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1084272834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1084272827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260f571c5028c64085c9f759a9bdc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoutingClip: {fileID: 8300000, guid: f2e0ffd43812bf642a502c434b572c75, type: 3}
+  turnSmoothing: 15
+  speedDampTime: .100000001
 --- !u!1 &1084955190
 GameObject:
   m_ObjectHideFlags: 0

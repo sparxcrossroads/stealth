@@ -22,7 +22,8 @@ public class HashIDs : MonoBehaviour {
         locomotionState = Animator.StringToHash("Base Layer.Locomotion");
         shoutState = Animator.StringToHash("Shouting.shout");
         deadBool = Animator.StringToHash("Dead");
-        speedFloat = Animator.StringToHash("Sneaking");
+        speedFloat = Animator.StringToHash("Speed");
+        sneakingBool = Animator.StringToHash("Sneaking");
         shoutingBool = Animator.StringToHash("Shouting");
         playerInSightBool=Animator.StringToHash("PlayerInSight");
         shotFloat=Animator.StringToHash("Shot");

@@ -25,7 +25,7 @@ public class LaserSwitchDeactivation : MonoBehaviour {
         laser.SetActive(false);
 
         //获取开关上屏幕的渲染组件
-        Renderer screen = transform.Find("prop_switchUnit_screen_001").renderer;
+        Renderer screen = transform.Find("prop_switchUnit_screen").renderer;
 
         screen.material = unlockedMat;
 
