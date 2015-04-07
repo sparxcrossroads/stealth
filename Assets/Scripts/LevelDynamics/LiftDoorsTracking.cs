@@ -14,10 +14,10 @@ public class LiftDoorsTracking : MonoBehaviour {
 
     void Awake()
     {
-        leftOuterDoor = GameObject.Find("door_exit_Outer_left_001").transform;
-        rightOuterDoor = GameObject.Find("door_exit_Outer_right_001").transform;
-        leftInnerDoor = GameObject.Find("door_exit_Inner_left_001").transform;
-        rightInnerDoor = GameObject.Find("door_exit_Inner_right_001").transform;
+        leftOuterDoor = GameObject.Find("door_exit_outer_left_001").transform;
+        rightOuterDoor = GameObject.Find("door_exit_outer_right_001").transform;
+        leftInnerDoor = GameObject.Find("door_exit_inner_left_001").transform;
+        rightInnerDoor = GameObject.Find("door_exit_inner_right_001").transform;
 
         //设置当前门的坐标为关闭的x坐标
         leftClosedPosX = leftInnerDoor.position.x;
