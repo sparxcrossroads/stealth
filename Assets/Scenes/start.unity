@@ -5944,6 +5944,7 @@ GameObject:
   - 135: {fileID: 214423584}
   - 54: {fileID: 214423583}
   - 195: {fileID: 214423582}
+  - 114: {fileID: 214423586}
   m_Layer: 0
   m_Name: char_robotGuard
   m_TagString: Enemy
@@ -6028,6 +6029,20 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &214423586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214423580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b9ec461ebf3ea4b980b5b3c8831ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfViewAngle: 110
+  playerInSight: 0
+  personalLastSighting: {x: 0, y: 0, z: 0}
 --- !u!1 &214627322
 GameObject:
   m_ObjectHideFlags: 0
