@@ -14,7 +14,10 @@ public class SceneFadeInOut : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        StartScene();
+        if (sceneStarting)
+        {
+            StartScene();
+        }
 	}
 
     void FadeToClear()

@@ -1,0 +1,37 @@
+Base path: F:/unity3d/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-2-7160
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=1 type=0 insize=5424 outsize=926 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=5424 outsize=662 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5424 outsize=5426 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=5424 outsize=3908 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5424 outsize=1534 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=5424 outsize=1147 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=5424 outsize=1029 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=5424 outsize=4615 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=2693 outsize=4363 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2693 outsize=894 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2693 outsize=857 kw=POINT_COOKIE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=2693 outsize=381 kw=DIRECTIONAL_COOKIE ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=2693 outsize=3819 kw=POINT ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=2693 outsize=4461 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2693 outsize=708 kw=DIRECTIONAL_COOKIE ok=1
+Unhandled exception: Readfile from pipe failed. GLE=管道已结束。
+
+
+Quitting shader compiler process
