@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float turnSmoothing = 15f;
     public float speedDampTime = 0.1f;
 
+    private ETjoystick m_et;
     private Animator anim;
     private HashIDs hash;
 
@@ -17,14 +18,17 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         hash = GameObject.FindGameObjectWithTag(Tags.gameController).GetComponent<HashIDs>();
         anim.SetLayerWeight(1, 1f);
-
+        m_et = GetComponent<ETjoystick>();
     }
 
     //缓存用户输入
     void FixedUpdate()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        //float h = Input.GetAxis("Horizontal");
+        //float v = Input.GetAxis("Vertical");
+
+        float h = m_et.joyPositionX;
+        float v = m_et.joyPositionY;
         bool sneak = Input.GetButton("Sneak");
 
         MovementManagement(h, v, sneak);

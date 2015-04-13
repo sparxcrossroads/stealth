@@ -22,7 +22,7 @@ public class CameraMovement : MonoBehaviour {
     }
 
 
-    void FixedUpdate()
+    void Update()
     {
         //camera position
         Vector3 standardPos = player.position + relCameraPos;
@@ -66,4 +66,5 @@ public class CameraMovement : MonoBehaviour {
         Quaternion lookAtRotation = Quaternion.LookRotation(relPlayerPosition, Vector3.up);
         transform.rotation = Quaternion.Lerp(transform.rotation, lookAtRotation, smooth * Time.deltaTime);
     }
+
 }
